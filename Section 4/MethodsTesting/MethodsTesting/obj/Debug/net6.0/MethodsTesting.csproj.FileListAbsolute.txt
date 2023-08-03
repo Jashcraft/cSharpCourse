@@ -1,0 +1,15 @@
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\bin\Debug\net6.0\MethodsTesting.exe
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\bin\Debug\net6.0\MethodsTesting.deps.json
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\bin\Debug\net6.0\MethodsTesting.runtimeconfig.json
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\bin\Debug\net6.0\MethodsTesting.dll
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\bin\Debug\net6.0\MethodsTesting.pdb
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\obj\Debug\net6.0\MethodsTesting.csproj.AssemblyReference.cache
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\obj\Debug\net6.0\MethodsTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\obj\Debug\net6.0\MethodsTesting.AssemblyInfoInputs.cache
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\obj\Debug\net6.0\MethodsTesting.AssemblyInfo.cs
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\obj\Debug\net6.0\MethodsTesting.csproj.CoreCompileInputs.cache
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\obj\Debug\net6.0\MethodsTesting.dll
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\obj\Debug\net6.0\refint\MethodsTesting.dll
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\obj\Debug\net6.0\MethodsTesting.pdb
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\obj\Debug\net6.0\MethodsTesting.genruntimeconfig.cache
+C:\Users\ashcr\Code\cSharpCourse\Section 4\MethodsTesting\MethodsTesting\obj\Debug\net6.0\ref\MethodsTesting.dll
