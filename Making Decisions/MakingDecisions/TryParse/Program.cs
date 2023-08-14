@@ -6,7 +6,7 @@ namespace TryParse
   {
     static void Main(string[] args)
     {
-
+      
       init();
 
       Console.ForegroundColor = ConsoleColor.White;
