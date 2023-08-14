@@ -12,6 +12,7 @@ namespace TryCatchFinally
 
       try
       {
+          //some methods will tell you the possible exceptions when you hover over them.
         int userInputAsInt = int.Parse(userInput);
       }
       catch (FormatException)
