@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodsTesting", "MethodsTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchFinally", "TryCatchFinally\TryCatchFinally.csproj", "{9C1847C0-DFFF-4A37-948D-EB9FC52373B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorsC", "OperatorsC\OperatorsC.csproj", "{12FCA2D3-28F5-4825-8A9A-125288C61565}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9C1847C0-DFFF-4A37-948D-EB9FC52373B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C1847C0-DFFF-4A37-948D-EB9FC52373B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C1847C0-DFFF-4A37-948D-EB9FC52373B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FCA2D3-28F5-4825-8A9A-125288C61565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FCA2D3-28F5-4825-8A9A-125288C61565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FCA2D3-28F5-4825-8A9A-125288C61565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FCA2D3-28F5-4825-8A9A-125288C61565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
