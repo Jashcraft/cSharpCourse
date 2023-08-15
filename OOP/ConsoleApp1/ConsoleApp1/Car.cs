@@ -8,29 +8,50 @@ namespace ClassesAndObjects
 {
   internal class Car
   {
+    #region Member Variables
     //Member variables
     private string _name; //private field typically used for storing data. 
     private int _hp;
     private string _status;
     private string _color;
     private int _year;
-    //Constructor
-    public Car(
-      string name,
-      int hp = 0,
-      string status = "stopped",
-      string color = "Black",
-      int year = 1999
-      )
+    #endregion
+
+    #region Constructors
+    //Default Constructor
+    public Car() {
+      _name = "Car";
+      _hp = 0;
+      _year = 1999;
+      _color = "Black";
+      _status = "stopped";
+    }
+
+    //Partial Specific Constructor
+    public Car(string name, int hp)
 
     {
-      Console.WriteLine(name + " was created!");
+      Console.WriteLine(name + " was created with " + hp + " horsepower!");
       _name = name;
       _hp = hp;
-      _status = status;
-      _color = color;
+      _status = "Stopped";
+      _color = "Black";
+      _year = 1999;
     }
-    //Member Methods
+
+    // Specific Constructor
+
+    public Car(string name, string color, int hp, int year)
+    {
+      _name = name;
+      _color = color;
+      _hp = hp; 
+      _year = year;
+      _status = "stopped";
+    }
+    #endregion
+
+    #region Member Methods
     public void Drive()
     {
       Console.WriteLine(_name + " is driving!");
@@ -57,6 +78,7 @@ namespace ClassesAndObjects
       Console.WriteLine(_name + " Wrecks!");
       _status = "wrecked";
     }
+    #endregion
 
   }
 }
