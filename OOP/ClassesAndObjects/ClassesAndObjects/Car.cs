@@ -11,11 +11,12 @@ namespace ClassesAndObjects
     //*************************************************************//
     #region Private Member Variables
 
-    public string _name;  
+    private string _name;
     private int _hp;
     private string _status;
     private string _color;
     private int _year;
+    private int _TopSpeed;
     #endregion
     //*************************************************************//
     #region Constructors
@@ -27,6 +28,7 @@ namespace ClassesAndObjects
       _year = 1999;
       _color = "Black";
       _status = "stopped";
+      _TopSpeed = 30;
     }
 
     //Partial Specific Constructor
@@ -59,6 +61,7 @@ namespace ClassesAndObjects
       Console.WriteLine(_name + " is driving!");
       _status = "driving";
     }
+
     public void Stop()
     {
       Console.WriteLine(_name + " has stopped!");
@@ -80,18 +83,37 @@ namespace ClassesAndObjects
       Console.WriteLine(_name + " Wrecks!");
       _status = "wrecked";
     }
-        #endregion
+    #endregion
     //*************************************************************//
     #region Public Properties
 
-        public string Name {
+    public string Name
+    {
       get { return _name; } //get accessor
-      set { _name = value; } //set accessor
+      set
+      {
+        if (value == "")
+        {
+          _name = "DEFAULTCARNAME";
+        }
+        else
+        {
+          _name = value;
+        }
+      } //set accessor
+    }
+
+    public int TopSpeed
+    {
+      set
+      {
+        _TopSpeed = value;
+      }
     }
 
 
-        #endregion
+    #endregion
     //*************************************************************//
 
-    }
+  }
 }

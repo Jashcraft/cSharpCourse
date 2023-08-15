@@ -10,9 +10,10 @@ namespace ClassesAndObjects
       Car myCar = new Car();
       myCar.Name = "My Volvo";
 
-            Console.WriteLine(myCar.Name);
+      Console.WriteLine("Name: " + myCar.Name + "\nTopSpeed: " + myCar.TopSpeed);
 
-            Exit();
+
+      Exit();
 
     }
 
