@@ -7,22 +7,33 @@ namespace ClassesAndObjects
   {
     static void Main(string[] args)
     {
-      Car audi = new Car();
-      Car bmw = new Car();
+      Car audi = new Car("Audi",75);
+      Car bmw = new Car("BMW", 350);
+      audi.PrintStats();
+      bmw.PrintStats();
       audi.Drive();
+      bmw.Drive();
 
 
 
-      Console.WriteLine("Press 1 to stop car.");
+      Console.WriteLine("Press 1 to stop audi.");
+      Console.WriteLine("Press 2 to stop bmw.");
       string userInput = Console.ReadLine();
-      if (userInput == "1")
+
+      switch (userInput)
       {
-        audi.Stop();
+        case "1":
+          audi.Stop(); break;
+        case "2":
+          bmw.Stop(); break;
+        default:
+          audi.Wreck();
+          bmw.Wreck();
+          break;
       }
-      else
-      {
-        Console.WriteLine("Car wrecks!");
-      }
+      audi.PrintStats();
+      bmw.PrintStats();
+
 
 
 
