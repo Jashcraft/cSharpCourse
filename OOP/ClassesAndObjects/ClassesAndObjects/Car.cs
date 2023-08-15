@@ -8,15 +8,16 @@ namespace ClassesAndObjects
 {
   internal class Car
   {
-    #region Member Variables
-    //Member variables
-    public string _name; //private field typically used for storing data. 
+    //*************************************************************//
+    #region Private Member Variables
+
+    public string _name;  
     private int _hp;
     private string _status;
     private string _color;
     private int _year;
     #endregion
-
+    //*************************************************************//
     #region Constructors
     //Default Constructor
     public Car()
@@ -51,8 +52,8 @@ namespace ClassesAndObjects
       _status = "stopped";
     }
     #endregion
-
-    #region Member Methods
+    //*************************************************************//
+    #region Public Member Methods
     public void Drive()
     {
       Console.WriteLine(_name + " is driving!");
@@ -79,31 +80,18 @@ namespace ClassesAndObjects
       Console.WriteLine(_name + " Wrecks!");
       _status = "wrecked";
     }
+        #endregion
+    //*************************************************************//
+    #region Public Properties
 
-
-    //Example of A
-    public void SetName(string name)
-    {
-      if (name == "")
-      {
-        _name = "defaultName";
-      }
-      else
-      {
-        _name = name+ " Car";
-      }
+        public string Name {
+      get { return _name; } //get accessor
+      set { _name = value; } //set accessor
     }
 
-    public string GetName() {  
-      return _name;
+
+        #endregion
+    //*************************************************************//
+
     }
-
-    public string GetHP()
-    {
-
-      return _hp.ToString() + "HP";
-    }
-    #endregion
-
-  }
 }
