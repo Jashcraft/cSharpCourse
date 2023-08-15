@@ -10,7 +10,7 @@ namespace ClassesAndObjects
   {
     #region Member Variables
     //Member variables
-    private string _name; //private field typically used for storing data. 
+    public string _name; //private field typically used for storing data. 
     private int _hp;
     private string _status;
     private string _color;
@@ -22,7 +22,7 @@ namespace ClassesAndObjects
     public Car()
     {
       _name = "Car";
-      _hp = 0;
+      _hp = 125;
       _year = 1999;
       _color = "Black";
       _status = "stopped";
@@ -78,6 +78,30 @@ namespace ClassesAndObjects
     {
       Console.WriteLine(_name + " Wrecks!");
       _status = "wrecked";
+    }
+
+
+    //Example of A
+    public void SetName(string name)
+    {
+      if (name == "")
+      {
+        _name = "defaultName";
+      }
+      else
+      {
+        _name = name+ " Car";
+      }
+    }
+
+    public string GetName() {  
+      return _name;
+    }
+
+    public string GetHP()
+    {
+
+      return _hp.ToString() + "HP";
     }
     #endregion
 

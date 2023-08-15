@@ -9,6 +9,11 @@ namespace ClassesAndObjects
     {
       Car audi = new Car("Audi", 75);
       Car bmw = new Car("BMW", 350);
+      Car myCar = new Car();
+      myCar.SetName("Steven");
+      Console.WriteLine(myCar.GetHP());
+            
+      Console.WriteLine(myCar.GetName());
       audi.PrintStats();
       bmw.PrintStats();
       audi.Drive();
