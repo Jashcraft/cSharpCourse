@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{2316C3DA-1A50-4056-9B36-F72D95DC924A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDimensionalArrays", "MultiDimensionalArrays\MultiDimensionalArrays.csproj", "{2FE188AD-CB59-42D7-87F4-8B4B9B03CBCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2316C3DA-1A50-4056-9B36-F72D95DC924A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2316C3DA-1A50-4056-9B36-F72D95DC924A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2316C3DA-1A50-4056-9B36-F72D95DC924A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE188AD-CB59-42D7-87F4-8B4B9B03CBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE188AD-CB59-42D7-87F4-8B4B9B03CBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE188AD-CB59-42D7-87F4-8B4B9B03CBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE188AD-CB59-42D7-87F4-8B4B9B03CBCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

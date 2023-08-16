@@ -4,20 +4,23 @@
   {
     static void Main(string[] args)
     {
-      //declare and initialize
-      int[] grades = new int[5];
-      grades[0] = 20;
-      grades[1] = 15;
-      grades[2] = 30;
-      grades[3] = 40;
-      grades[4] = 15;
+      int[] nums = new int[10];
+      for (int i = 0; i < nums.Length; i++)
+      {
+        nums[i] = i;
 
-      int[] gradesOfStudentsA = { 20, 22, 76, 15, 30 };
-      int[] gradesOfStudentsB = new int[] { 20, 22, 33 };
+      }
 
-      Console.WriteLine("length of gradesOfStudentsA array is: {0}", gradesOfStudentsA.Length);
+      for (int j = 0; j < nums.Length; j++)
+      {
+        Console.WriteLine("Element{0} = {1}", j, nums[j]);
+      }
 
-      SetGrades();
+      int counter = 0;
+      foreach (int item in nums)
+      {
+        Console.WriteLine("Element{0} = {1}", counter, item); counter++;
+      }
 
       Exit();
     }
@@ -27,18 +30,6 @@
       System.Threading.Thread.Sleep(4000);
     }
 
-    public static void SetGrades()
-    {
-      Console.WriteLine("Choose a student to update(1-5): ");
-      string indexInput = Console.ReadLine();
-      Console.WriteLine("Set grade for student(0-100): ");
-      string gradeInput = Console.ReadLine();
 
-      int selectedStudent = int.Parse(indexInput) - 1;
-      int grade = int.Parse(gradeInput);
-
-
-      Console.WriteLine("Student {0} now has a grade of {1}", selectedStudent, grade);
-    }
   }
 }
